@@ -1,0 +1,188 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    background-color: rgb(212, 214, 213);
+  }
+  
+  .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 30px;
+    padding-left: 20px;
+    line-height: 20px;
+  }
+  
+  .navbar-brand span {
+    font-weight: bold;
+    color: rgb(209, 0, 0);
+  }
+  
+  .nav-item .nav-link {
+    padding: 10px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin-left: 4rem;
+  }
+  
+  #container1 {
+    margin-top: 8rem;
+    margin-left: 5rem;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  #container1 h2 {
+    font-weight: bold;
+  }
+  
+  #container1 h2 span {
+    color: rgb(209, 0, 0);
+  }
+  
+  .card {
+    margin-left: 70px;
+    color: white;
+  }
+  
+  .card i {
+    font-size: 90px;
+  }
+  
+  .card h3 {
+    font-weight: bolder;
+  }
+  
+  .icons {
+    text-align: center;
+    display: flex;
+    margin: auto;
+  }
+  
+  .icons1 {
+    background-color: rgb(33, 22, 138);
+  }
+  
+  .icons2 {
+    background-color: rgb(4, 218, 50);
+  }
+  
+  .icons3 {
+    background-color: rgb(255, 0, 0);
+  }
+  
+  .jumbotron {
+    border-top-left-radius: 0;
+  }
+  
+  .heading1 {
+    font-weight: bolder;
+  }
+  
+  #card1 {
+    color: black;
+    margin: 20px;
+  }
+  
+  /* Footer Styles */
+  .footer {
+background-color: #0b00b3;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  position: fixed;
+  bottom: 0%;
+  width: 100%;
+  }
+  .footer h2{
+    font-size: 15px;
+  }
+  
+  /* Responsive Footer */
+  @media (max-width: 768px) {
+    .footer {
+      padding: 10px;
+    }
+  }
+  
+  /* Adjusting Navigation Bar */
+  .navbar-nav {
+    margin-top: 15px;
+  }
+  
+  .navbar-brand span {
+    font-weight: bold;
+  }
+  
+  /* Adjusting Container1 */
+  #container1 {
+    margin-top: 20px;
+  }
+  
+  /* Adjusting Icons Bar */
+  .icons {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .icons .card {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  /* Adjusting Icons Cards */
+  .icons1,
+  .icons2,
+  .icons3 {
+    border: none;
+  }
+  
+  /* Custom CSS for centering and responsiveness */
+  @media (max-width: 767px) {
+    .card-body {
+      text-align: center;
+      padding: 10px; /* Adjust as needed */
+    }
+  
+    .card {
+      margin-bottom: 10px; /* Adjust as needed */
+    }
+  }
+  form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+  }
+  
+  form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    background: #0b7dda;
+  }
+  
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }

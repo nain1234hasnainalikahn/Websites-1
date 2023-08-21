@@ -1,0 +1,509 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>Porfolio Websites</title>
+<meta utf="8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--Responsive Links Starts-->
+<!--Boostrap Link-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<!-- jQuery library-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- Popper Javascript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!-- Fontawosome Link -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!--End Responsive Links-->
+<!--Google Font Add here-->
+
+<!--End Font-->
+<!--link With Css-->
+<link rel="stylesheet" type="text/css" href="style.css">
+<!--Start Downloade Script-->
+<script>
+let button=document.queryselector("body a");
+button.addEventListener("click",()=>{
+      const span=document.queryselector("a span");
+  button.style.paddingRight='10px';
+  span.style.visibility="visible";
+  setTimeout(()=>{
+      span.style.visibility="hidden";
+      button.style.transition="2s ease-in-out";
+     button.style.paddingRight ="0px";
+  },3000);
+})
+</script>
+<!--End Download script-->
+<!--Nabr Hide-->
+<script>
+  $(document).ready(function(){
+$('.js-scroll-trigger').click(function(){
+$('.navbar-collapse').collapse('hide');
+});
+});
+</script>
+<!--End Navbar Hide-->
+</head>
+<body>
+<!--Start navigation-->
+ <nav class="navbar navbar-expand-sm navbar-dark bg-danger pl-5 fixed-top mb-0" id="Home">
+<a href="#" class="navbar-brand text-light font-weight-bold">Hasnain Ali</a>
+<span class="text-warning">Portfolio Website</span>
+ <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#myMenu">
+ <span class="navbar-toggler-icon"></span>
+    </button>
+<div class="collapse navbar-collapse" id="myMenu">
+      <ul class="navbar-nav  custom-nav ml-auto">
+          <li class="nav-item"><a href="index.html" class="nav-link  js-scroll-trigger text-warning font-weight-bold">Home</a></li>
+        <li class="nav-item"><a href="#Profile" class="nav-link  js-scroll-trigger text-warning font-weight-bold">Profile</a></li>
+         <li class="nav-item"><a href="#OURSERVICES" class="nav-link  js-scroll-trigger text-warning font-weight-bold">My Skills</a></li>
+     <li class="nav-item"><a href="#Experience" class="nav-link  js-scroll-trigger text-warning font-weight-bold">Experience</a></li>
+        <li class="nav-item"><a href="#Contact" class="nav-link  js-scroll-trigger text-warning font-weight-bold">Contact US</a></li>
+      </ul>
+    </div>
+  </nav> <!-- End Navigation -->
+<!--Start Hearder-->
+<header class="jumbotron back-image" style="background-image:url(picture1.png);"> 
+<div class="text-center text-dark" style="margin-top: 250px;">
+<h1 class="font-weight-bold text-uppercase text-danger">I am Hasnain Ali</h1>
+<h3 class="text-center font-weight-bold mt-0 text-danger">From Pakistan</h3>
+<h3 class="btn btn-danger font-weight-bold mt-2">Resume/CV <i class="fa fa-angle-right"></i></h3>
+<a href="C:\Users\Faryal Akbar\Desktop/excel-formulas.pdf" downloade>
+  <button type="btn" class="btn bg-success btntag font-weight-bold text-white" id="shd">Downloade</button>
+</a>
+</div>
+</header>
+<!--End Header-->
+<!--Start Profile Information-->
+<div id="Profile">
+
+ <div class="jumbotron bg-danger pb-6" id="Profile"style="margin-top: 80px; border-radius:0px;">
+  <h1 class="text-center text-white" style="margin-top: -10px;">PROFILE</h1>
+  <hr>
+  <br>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div id="Profiledata">
+          <div class="card bg-lighter">
+            <div class="card-title my-5">
+            <div class="media">
+              <img src="hasnain.jpg" width="250" height="250" class="img-fluid rounded-top mx-5 d-none d-lg-block">
+            <div class="card-body">
+              <h3 class="display-4 ml-3">I'm Hasnain Ali</h3>
+              <div class="container">
+                <table class="table table-resposive">
+                  <tr>
+                    <td class="text-muted">Age</td>
+                    <td>:</td>
+                    <td>21 years</td>
+                  </tr>
+                    <tr>
+                    <td class="text-muted">Email</td>
+                    <td>:</td>
+                  <td>Business786profile@gmail.com</td>
+                  </tr>
+                    <tr>
+                    <td class="text-muted">Website</td>
+                    <td>:</td>
+                    <td>www.hasnainportfolio.com</td>
+                  </tr>
+                    <tr>
+                    <td class="text-muted">Address</td>
+                    <td>:</td>
+                    <td>Faram Colony Rahimabad Mingora swat kpk pk</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+            </div>  
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<!--End Profile Information-->
+
+<!--Start Our Services-->
+<div class="jumbotron bg-danger" id="OURSERVICES" style="margin-top: 80px; border-radius:0px; ">
+   <h1 class="text-white text-center font-weight-bold" style="margin-top: 15px;">My Skills</h1>
+   <hr>
+  <div class="container-fluid text-center">
+   <div class="row">
+      <div class="col-lg-4 col-sm-3 col-md-6 mt-4">
+          <div class="card">
+            <div class="card-body" id="bordersd">
+              <img src="" alt="">
+            <p class="text-center mb-1">Professional</p>
+      <a href=""><div class="card-title text-center font-weight-bold text-danger">Graphic Designer</div>
+       </a>  
+          </div>
+            </div>
+          </div>
+             <div class="col-lg-4 col-sm-3 mt-4">
+          <div class="card">
+            <div class="card-body" id="bordersd">
+              <img src="" alt="">
+              <p class="text-center mb-1">Professional</p>
+              <div class="card-title text-center font-weight-bold text-danger">Autocad Architectural</div>
+              </div>
+            </div>
+          </div>
+                <div class="col-lg-4 col-sm-3 mt-4">
+          <div class="card">
+            <div class="card-body"id="bordersd">
+              <img src="" alt="">
+          <div class="card-title text-center font-weight-bold text-danger">Ms Office</div>
+            <p class="text-center mb-1">Expert</p>
+              </div>
+            </div>
+          </div>
+            <div class="col-lg-4 col-sm-3 mt-4">
+          <div class="card">
+            <div class="card-body"id="bordersd">
+              <img src="" alt="">
+            <p class="text-center mb-1">Professional</p>
+              <div class="card-title text-center font-weight-bold text-danger">Website Developer</div>
+              </div>
+            </div>
+          </div>
+                <div class="col-lg-4 col-sm-3 mt-4">
+          <div class="card">
+            <div class="card-body"id="bordersd">
+              <img src="" alt="">
+              <p class="text-center  mb-1">Professional</p>
+              <div class="card-title text-center font-weight-bold text-danger">Social Media Marketing</div>
+              </div>
+            </div>
+          </div>
+               <div class="col-lg-4 col-sm-3 mt-4">
+          <div class="card">
+            <div class="card-body"id="bordersd">
+              <img src="" alt="">
+              <p class="text-center  mb-1">Professional</p>
+              <div class="card-title text-center font-weight-bold text-danger">PROGRAMMER</div>
+              </div>
+            </div>
+          </div>
+            <div class="col-lg-4 col-sm-3 mt-4">
+          <div class="card">
+            <div class="card-body"id="bordersd">
+              <img src="" alt="">
+              <p class="text-center  mb-1">Youtube Channel</p>
+              <div class="card-title text-center font-weight-bold text-danger">Creater & Mangament</div>
+              </div>
+            </div>
+          </div>
+            <div class="col-lg-4 col-sm-3 mt-4">
+          <div class="card">
+            <div class="card-body"id="bordersd">
+              <img src="" alt="">
+              <p class="text-center  mb-1">Professional Work as a</p>
+              <div class="card-title text-center font-weight-bold text-danger">Freelancer</div>
+              </div>
+            </div>
+          </div>
+            <div class="col-lg-4 col-sm-3 mt-4">
+          <div class="card">
+            <div class="card-body"id="bordersd">
+              <img src="" alt="">
+              <p class="text-center  mb-1">Blog & Facebook Page</p>
+              <div class="card-title text-center font-weight-bold text-danger">Creator & Managment</div>
+              </div>
+            </div>
+          </div>
+       </div>
+ </div>
+</div>
+<hr>
+<!--End Skill-->
+<!--Start Experience Skills-->
+  <div class="container-fluid" id="Experience">
+    <br>
+    <br>
+    <br>
+    <h1 class="text-center text-danger font-weight-bold mb-5">Experience Level</h1>
+<div role="tabpanel" class=" tab-pane"  >
+              <div class="skill-section">
+                <div class="row">
+                  <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2">
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="  50"     aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+                          <span class="skill-name"><strong">Graphic Designer</strong></span>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-md-2 col-sm-2 col-xs-2 text-left">100%</div>
+                </div>
+                <br>
+               <div class="row">
+                  <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2">
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="  50"     aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+                          <span class="skill-name"><strong">AutoCad Artitectural</strong></span>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-md-2 col-sm-2 col-xs-2 text-left">90%</div>
+                </div>
+                <br>
+                 <div class="row">
+                  <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2">
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="  50"     aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+                          <span class="skill-name"><strong">Ms Office</strong></span>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-md-2 col-sm-2 col-xs-2 text-left">100%</div>
+                </div>
+                <br>
+                 <div class="row">
+                  <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2">
+                    <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="  50"     aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+                          <span class="skill-name"><strong">Website Developer</strong></span>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-md-2 col-sm-2 col-xs-2 text-left">100%</div>
+                </div>
+                <br>
+              <div class="row">
+                  <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2">
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="  50"     aria-valuemin="0" aria-valuemax="100" style="width: 95%">
+                          <span class="skill-name"><strong">Social Media Marketing</strong></span>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-md-2 col-sm-2 col-xs-2 text-left">95%</div>
+                </div>
+                <br>
+             <div class="row">
+                  <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2">
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="  50"     aria-valuemin="0" aria-valuemax="100" style="width: 85%">
+                          <span class="skill-name"><strong">C++ Programmer</strong></span>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-md-2 col-sm-2 col-xs-2 text-left">85%</div>
+                </div>
+                <br>
+             <div class="row">
+                  <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2">
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="  50"     aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+                          <span class="skill-name"><strong">Youtube Channel Creator & Managment</strong></span>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-md-2 col-sm-2 col-xs-2 text-left">97%</div>
+                </div>
+                <br>
+             <div class="row">
+                  <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2">
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="  50"     aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+                          <span class="skill-name"><strong">Website Developer</strong></span>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-md-2 col-sm-2 col-xs-2 text-left">100%</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+     </div>
+    </section>
+    </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<div class="text-danger mt-5"style="text-align: center;" id="Contact">
+  <br>
+  <br>
+  <br>
+  <h1>Contact Us</h1>
+  <p>ON Social Media Platform</p>
+  </div>
+<div class="container">
+  <div class="row mt-5">
+   <div class="col-md-4">
+     <div class="card  mt-2">
+       <div class="card-body bg-warning text-center" id="bordersd" style="border-radius: 9px;">
+         <div class="card-heading">
+          <i class="fa fa-whatsapp text-success"style="font-size: 40px"></i>
+           <div class="cart-title"><strong>
+           Whatsapp No</strong>
+           </div>
+           <div class="card-text pb-3">
+             <strong>+923459523378</strong>
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+   <div class="col-md-4">
+       <div class="card mt-2">
+       <div class="card-body bg-warning text-center pd-2" id="bordersd" style="border-radius: 9px;">
+         <div class="card-heading">
+              <i class="fa fa-facebook text-primary" style="font-size: 40px"></i>
+             <div class="cart-title "><strong>
+            Contact On Facebook</strong>
+           </div>
+           <div class="card-text">
+             <button type="button"class="btn btn-danger btn-sm mt-2" href="#" id="shd1">Click Here</button>
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+   <div class="col-md-4">
+       <div class="card  mt-2">
+       <div class="card-body bg-warning text-center" id="bordersd" style="border-radius: 9px;">
+         <div class="card-heading">
+              <i class="fa fa-envelope text-danger"style="font-size: 40px"></i>
+             <div class="cart-title"><strong>
+              Contact on Email</strong>
+           </div>
+           <div class="card-text">
+            <button type="button"class="btn btn-danger btn-sm mt-2" href="#" id="shd1">Click Here</button>
+           </div>
+         </div>
+       </div>
+     </div>
+   </div> 
+ </div>
+    </div>
+    <hr>
+ <!--Start contact Second Part-->
+   <div class="text-danger mt-4"style="text-align: center;">
+  <h1>Contact Us</h1>
+  <p>ON Website</p>
+  </div>
+      <div class="jumbotron bg-light" style="border-radius: 0px;" id="jumbotron">
+       <form class="myform" action="post" method="post"id="submit_form">
+        <div class="form-row">       
+          <div class="col-sm-6 mt-4">
+         <div class="input-group">
+           <div class="input-group-prepend">
+           <span class="input-group-text bg-warning">Name :</span>
+           </div>
+          <input type="text" name="UserName" id="Name" class="form-control" placeholder="Enter Your Name" required>
+         </div>
+       </div>
+         <div class="input-group col-sm-6 mt-4">
+           <div class="input-group-prepend">
+            <span class="input-group-text bg-warning">@Email :</span>
+           </div>
+           <input type="email" name="email" id="email" class="form-control" placeholder="Enter Your Email Address" required>
+         </div>
+         <div class="input-group col-sm-6 mt-4">
+           <div class="input-group-prepend">
+            <span class="input-group-text bg-warning">Phone No :</span>
+           </div>
+           <input type="Number" name="Phone Number" id="Phonenumber" class="form-control" placeholder="Enter Your Phone Number" required>
+         </div>
+          <div class="input-group col-sm-6 mt-4">
+           <div class="input-group-prepend">
+            <span class="input-group-text bg-warning">select subject:</span>
+          </div>
+            <select class="form-control" id="count" id="Selectsubject" required>
+              <option value="0">---Select---</option>
+              <option value="1">Graphic Design</option>
+              <option value="2">Autocad Architectural</option>
+            <option value="3">Ms Office</option>
+              <option value="4">Website Developer</option>
+              <option value="5">Social Media Marketing</option>
+              <option value="6">PROGRAMMER</option>
+              <option value="7">Youtube Channel Creater & Mangament</option>
+            <option value="8">Blog & Facebook Page
+              Creator & Managment</option>
+              <option value="9">Others</option>
+           </select>
+           </div>
+             <div class="input-group mt-4 one">
+          <div class="input-group-prepend">
+            <span class="input-group-text bg-warning">Other Field :</span>
+          </div>
+         <input type="text" name="Other Field" id="Otherfield" class="form-control" placeholder="Enter Your Others Field Not Fill Type None" required>
+        </div>
+        <div class="input-group mt-4 two">
+          <div class="input-group-prepend">
+            <span class="input-group-text bg-warning">Subject Title :</span>
+          </div>
+         <input type="text" name="Subject Title" id="Subject title" class="form-control" placeholder="Enter Your Subject Title" required> 
+        </div>
+         <div class="input-group sm-6 mt-4">
+           <div class="input-group-prepend">
+             <span class="input-group-text bg-warning">Gender</span>
+           </div>
+            <select class="form-control" id="Gender" required>
+              <option value="0">---Select---</option>
+              <option value="1">Male</option>
+              <option value="2">Female</option>
+              <option value="3">Other</option>
+           </select>
+         </div>
+      <div class="input-group mt-4">
+            <div class="input-group-prepend">
+              <span class="input-group-text bg-warning">Country Name</span>
+            </div>
+             <input type="text" name="Country" class="form-control" placeholder="Enter Your Country Name" id="Countryname" required>
+          </div>
+        <div class="input-group sm-6 mt-4">
+          <div class="input-group-prepend">
+            <span class="input-group-text bg-warning px-2"><b>Write Description</b></span>
+          </div>
+          <textarea class="form-control " rows="3"placeholder="Write ProjectDescription " id="ProjectDescription" required></textarea>
+      </div>
+      <div class="form-check mt-4">
+    <input type="checkbox" class="form-check-input" id="invalidCheck" required>
+    <label class="form-check-label"><b>Check Your Information</b></label>
+  </div>
+  </div>
+  <input type="submit" value="submit" id="submit" class="btn btn-primary mt-3">
+    </div>
+    <div id="jumbotron"></div>
+  </form>
+<!--End Experience Skills-->
+<footer class="bg-danger mt-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="social-media-links ml-4 p-4">
+                    <h4 class="text-white font-weight-bold mb-4">Follow us on:</h4>
+                    <a href="#" class="social-icon"><i class="fa fa-facebook"></i></a>
+                    <a href="#" class="social-icon"><i class="fa fa-twitter"></i></a>
+                    <a href="#" class="social-icon"><i class="fa fa-whatsapp"></i></a>
+                    <a href="#" class="social-icon"><i class="fa fa-google"></i></a>
+                    <a href="#" class="social-icon"><i class="fa fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="contact-info p-4">
+                    <h4 class="text-white font-weight-bold mb-4">Contact Us:</h4>
+                    <p class="text-white">Dummy Street, City</p>
+                    <p class="text-white">Email: example@example.com</p>
+                    <p class="text-white">Phone: +923405800907</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
